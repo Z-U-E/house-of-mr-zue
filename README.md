@@ -1,7 +1,15 @@
 # house-of-mr-zue
-[git init
-git remote add origin https://github.com/yourusername/house-of-mr-zue.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master
-](https://formspree.io/f/xwpbvdll)
+ action="https://formspree.io/f/xwpbvdll"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
